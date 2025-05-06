@@ -47,7 +47,7 @@ def query_bot(user_query, top_k=1, faiss_threshold=1.0):
     gemini_response = search_gemini(user_query)
     return f"[Gemini Answer]\n{gemini_response}"
 
-# ----------- Example Run -----------
+
 if __name__ == "__main__":
     while True:
         user_input = input("\nAsk a placement-related question (or type 'exit'): ")
