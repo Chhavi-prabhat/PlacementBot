@@ -22,8 +22,8 @@ The Placement Bot is an AI-powered assistant designed to help students get answe
 - streamlit run ui2.py
 
 ## Run in terminal
-cd Scripts
-python query_bot.py
+- cd Scripts
+- python query_bot.py
 
 
 
