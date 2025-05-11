@@ -16,6 +16,7 @@ cd PlacementBot
 pip install -r requirements.txt
 
 ## Run Interfaces
+\`\`\`bash
 cd Scripts
 streamlit run ui.py
 streamlit run ui2.py
