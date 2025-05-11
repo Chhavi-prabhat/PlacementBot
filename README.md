@@ -5,15 +5,24 @@ The Placement Bot is an AI-powered assistant designed to help students get answe
 
 ## Features
 - Natural language Q&A
-- Uses Gemini API
-- Built with Gradio interface
+- Uses Vector Database (FAISS) and Gemini to answer user doubts
+- Usage of Langchain
+- Built with Streamlit interface
 
 ## Run Locally
 \`\`\`bash
-git clone https://github.com/your-username/placement-bot.git
-cd placement-bot
+git clone https://github.com/Chhavi-prabhat/PlacementBot.git
+cd PlacementBot
 pip install -r requirements.txt
-python app.py
+
+## Run Interfaces
+cd Scripts
+streamlit run ui.py
+streamlit run ui2.py
+
+## Run in terminal
+cd Scripts
+python query_bot.py
 \`\`\`
 
 
