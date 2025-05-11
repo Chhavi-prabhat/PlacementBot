@@ -11,14 +11,15 @@ The Placement Bot is an AI-powered assistant designed to help students get answe
 
 ## Run Locally
 
-git clone https://github.com/Chhavi-prabhat/PlacementBot.git
-cd PlacementBot
-pip install -r requirements.txt
+- git clone https://github.com/Chhavi-prabhat/PlacementBot.git
+- cd PlacementBot
+- pip install -r requirements.txt
 
 ## Run Interfaces
-cd Scripts
-streamlit run ui.py
-streamlit run ui2.py
+
+- cd Scripts
+- streamlit run ui.py
+- streamlit run ui2.py
 
 ## Run in terminal
 cd Scripts
