@@ -1,5 +1,5 @@
 cat <<EOF > README.md
-# í¾“ Placement Bot
+# ï¿½ï¿½ï¿½ Placement Bot
 
 The Placement Bot is an AI-powered assistant designed to help students get answers to placement-related queries.
 
@@ -10,13 +10,12 @@ The Placement Bot is an AI-powered assistant designed to help students get answe
 - Built with Streamlit interface
 
 ## Run Locally
-\`\`\`bash
+
 git clone https://github.com/Chhavi-prabhat/PlacementBot.git
 cd PlacementBot
 pip install -r requirements.txt
 
 ## Run Interfaces
-\`\`\`bash
 cd Scripts
 streamlit run ui.py
 streamlit run ui2.py
@@ -24,7 +23,7 @@ streamlit run ui2.py
 ## Run in terminal
 cd Scripts
 python query_bot.py
-\`\`\`
+
 
 
 
